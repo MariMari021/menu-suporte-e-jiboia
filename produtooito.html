@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jiboia - Água Viva</title>
+
+    <link rel="stylesheet" href="produtooito.css">
+    <link rel="shortcut icon" href="água_viva__2_-removebg-preview 1.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img-produfixo/logo.png" alt="logo da floricultura água viva.">
+        </div>
+        <nav>
+            <div class="main-nav">
+                <ul>
+                    <li><a href="#lancamentos">Lançamentos</a></li>
+                    <li><a href="Plantas.html">Plantas</a></li>
+                    <li><a href="Acessorios.html">Acessórios</a></li>
+                    <button type="submit" class="a" onclick="openPop()">
+                        <li>
+                            <p>
+                                Carrinho
+                            </p>
+                        </li>
+                        <!-- <li><a href="">Carrinho</a></li> -->
+                    </button>
+
+                    <button type="submit" class="a" onclick="openPopp()">
+                        <li>
+                            <p>
+                                Favoritos
+                            </p>
+                        </li>
+                    </button>
+                    <li><a class="cadastro" href="cadastro.html">Cadastre-se</a></li>
+                </ul>
+            </div>
+        
+        </button>
+<div class="menuicon">
+            <!-- icone -->
+            <ul class="menu-icones">
+               <li> <a href=""><img class="menu-iconi" src="img-produfixo/vetor trevo.png" alt=""></a></li>
+
+               <li><a href=""><img class="menu-icone" src="img-produfixo/vetor carrinho.png" alt=""></a></li>
+                
+               <li><a href=""><img class="menu-iconesss" src="img-produfixo/vetor coracao preenchido.png" alt=""></a></li>
+               
+              <li> <a href=""><img class="menu-iconess" src="img-produfixo/vetor perfil.png" alt=""></a></li>
+            </div>
+        </nav>
+
+
+    </header>
+
+
+    <main>
+
+  <div class="pop" id="pop">
+            <img src="image/logo.png" alt="">
+            <p>Para adicionar ao carrinho, cadastre-se ou entre em seu perfil.</p>
+            <button type="button" onclick="closePop()">OK</button>
+            <br><br>
+                <a class="tenho" href="login.html">Já tenho login</a>
+        </div>
+
+        <script>
+            let pop = document.getElementById("pop");
+
+            function openPop() {
+                pop.classList.add("open-pop");
+            }
+
+
+            function closePop() {
+                pop.classList.remove("open-pop");
+            }
+
+        </script>
+
+
+        <div class="popp" id="popp">
+            <img src="image/logo.png" alt="">
+            <p>Para adicionar aos favoritos, cadastre-se ou entre em seu perfil.</p>
+
+            <button type="button" onclick="closePopp()">OK</button>
+            <br><br>
+            <a class="tenho" href="login.html">Já tenho login</a>
+        </div>
+
+        <script>
+            let popp = document.getElementById("popp");
+
+            function openPopp() {
+                popp.classList.add("open-popp");
+            }
+
+
+            function closePopp() {
+                popp.classList.remove("open-popp");
+            }
+
+        </script>
+
+
+
+
+        <div class="gran"></div>
+<div class="seta-lancamentos">
+        <a href="#"><img class="seta" src="img-produfixo/seta.png" alt="">
+
+            <h3 class="titulo">Lançamentos</h3>
+
+        </a>
+    </div>
+        <div class="center">
+            <img class="arr" src="img-jiboiaoito/image 62.png" onmouseover="this.src='img-jiboiaoito/image 64.webp'"
+                onmouseout="this.src='img-jiboiaoito/image 62.png'">
+
+
+
+            <div id="subir">
+                <div class="infos">
+                <p class="t">Jiboia</p>
+                  <button type="submit" onclick="openPopupp()">
+                    <img class="he" src="img-produfixo/Vector.png" alt="">
+                </button>
+                <p class="x">R$ 40,00</p>
+                <p class="enco">Sob encomenda</p>
+                <p class="ri">Recomendada pela NASA para termos dentro de casa para purificar o ar.
+                </p>
+</div>
+              
+                <div class="popupp" id="popupp">
+                    <img src="img-produfixo/logo.png" alt="">
+                    <p>Para adicionar aos favoritos, faça seu cadastro ou entre em seu perfil.</p>
+                    <button type="button" onclick="closePopupp()"> OK</button>
+                </div>
+
+                <script>
+                    let popupp = document.getElementById("popupp");
+
+                    function openPopupp() {
+                        popupp.classList.add("open-popupp");
+                    }
+
+
+                    function closePopupp() {
+                        popupp.classList.remove("open-popupp");
+                    }
+
+
+                </script>
+
+
+
+                <button type="submit" class="rox" onclick="openPopup()">
+                    <div>
+                        <p class="tra"> Adicionar ao carrinho</p>
+                    </div>
+            </div></button>
+
+            <div class="popup" id="popup">
+                <img src="img-produfixo/logo.png" alt="">
+                <p>Para adicionar ao carrinho, cadastre-se ou entre em seu perfil.</p>
+                <button type="button" onclick="closePopup()"> OK</button>
+            </div>
+
+            <script>
+                let popup = document.getElementById("popup");
+
+                function openPopup() {
+                    popup.classList.add("open-popup");
+                }
+
+
+                function closePopup() {
+                    popup.classList.remove("open-popup");
+                }
+
+
+            </script>
+
+
+
+
+
+        </div>
+
+        <div class="fim"></div>
+
+        <p class="recom">Recomendações</p>
+        <section class="cima">
+           <a href="begonia.html">
+            <article class="recomedacaoum">
+                <img class="sing" src="img-begonia/image 91.png" alt="">
+                <p class="r">Begônia </p>
+                <p class="din">R$ 50,00</p>
+                <p class="menda">Sob encomenda</p>
+            </article></a> 
+
+
+
+            <a href="paudaagua.html"><article class="recomedacaoum">
+                <img class="adao" src="img-jiboiaoito/image 65.png" alt="">
+                <p class="c">Pau D'água</p>
+                <p class="eiro">R$ 49,90</p>
+                <p class="titudois">Sob encomenda</p>
+            </article></a>
+
+            <a href="pleomele.html"><article class="recomedacaoum">
+                <img class="boia" src="img-jiboiaoito/image 63.png" alt="">
+                <p class="j">Pleomele</p>
+                <p class="money">R$ 45,00</p>
+                <p class="subtitu">Sob encomenda</p>
+            </article></a>
+
+        </section>
+
+
+
+    </main>
+
+    <footer>
+        <div class="roxao">
+            <div class="empurrar">
+                <a class="Plantas" href="#">Plantas</a>
+
+
+                <div class="linhaum"></div>
+
+
+                <a class="Acessórios" href="#">Acessórios</a>
+
+
+                <div class="linhadois"></div>
+
+
+                <a class="Lançamentos" href="#">Lançamentos</a>
+
+
+                <div class="linhatres"></div>
+
+
+                <a class="Login" href="#">Login</a>
+
+
+                <div class="linhaquatro"></div>
+
+
+                <a class="Favoritos" href="#">Favoritos</a>
+
+
+                <div class="linhacinco"></div>
+
+
+                <a class="Carrinho" href="#">Carrinho</a>
+
+
+                <div class="linhaseis"></div>
+            </div>
+
+            <a class="Suporte" href="#">Suporte</a>
+
+
+            <div class="linhasete"></div>
+
+
+            <a class="Sobre" href="#">Sobre nós</a>
+
+
+
+        </div>
+
+
+        <p class="app">Siga-nos</p>
+        <a href="https://pt-br.facebook.com/people/%C3%81gua-Viva-Flores-e-Decora%C3%A7%C3%B5es/100057605292210/"><img
+                class="dimi" src="img-produfixo/image 33.png" alt=""></a>
+        <img class="mini" src="img-produfixo/image 34.png" alt="">
+
+        <p class="endereco">Endereço:Rua Santos Dumont, Avenida Santos Dumont, 680, Ferraz de Vasconcelos - SP,
+            08530-000</p>
+    </footer>
+
+</body>
+
+</html>
